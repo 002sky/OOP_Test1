@@ -22,9 +22,9 @@ public class Main {
         CMBMW.addModel(BMW_K);
 
 
-        ChargingStation CS1 = new ChargingStation("CS0001", 100);
-        ChargingStation CS2 = new ChargingStation("CS0002", 200);
-        ChargingStation CS3 = new ChargingStation("CS0003", 300);
+        ChargingStation CS1 = new ChargingStation("CS0001", "Aeon Tebrau",100);
+        ChargingStation CS2 = new ChargingStation("CS0002","Sutera Mall", 200);
+        ChargingStation CS3 = new ChargingStation("CS0003", "Aeon Dato Onn",300);
 
         ArrayList<ChargingStation> ChargingStationsList = new ArrayList<>();
         ChargingStationsList.add(CS1);

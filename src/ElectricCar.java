@@ -75,7 +75,7 @@ public class ElectricCar {
         return "\nElectricCar ID: " + getElectricCarID() +
                 "\n" + "Model: " + getModel() +
                 "\n" + "Manufacturer: " + getManufacturer().getManufacturerName() +
-                "\n" + "Battery Capacity: " + getBatteryCapacity()
+                "\n" + "Battery Capacity: " + getBatteryCapacity() +"kWh"
                 + displayChargingStation() ;
     }
 

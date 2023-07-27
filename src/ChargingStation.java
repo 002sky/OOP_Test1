@@ -2,16 +2,22 @@ import java.util.ArrayList;
 
 public class ChargingStation {
     private String StationID;
+    private String Location;
     private int ChargingCapacity;
 
 
     public ChargingStation() {
-        this("CS0001", 0);
+        this("CS0001", "NO WAY",0);
     }
 
-    public ChargingStation(String stationID, int chargingCapacity) {
+    public ChargingStation(String stationID, String location,int chargingCapacity) {
         StationID = stationID;
+        Location = location;
         ChargingCapacity = chargingCapacity;
+    }
+
+    public String getLocation() {
+        return Location;
     }
 
     public String getStationID() {
@@ -28,6 +34,10 @@ public class ChargingStation {
 
     public void setChargingCapacity(int chargingCapacity) {
         ChargingCapacity = chargingCapacity;
+    }
+
+    public void setLocation(String location) {
+        Location = location;
     }
 
     @Override
